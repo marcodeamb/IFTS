@@ -29,7 +29,7 @@
 // as the current DHT reading algorithm adjusts itself to work on faster procs.
 DHT dht(DHTPIN, DHTTYPE);
 
-#define TEMPERATURA 23 //definiamo la temperatura a cui cambiare stato
+#define TEMPERATURA 24 //definiamo la temperatura a cui cambiare stato
 #define ISTERESI 1 // serve per evitare che ci sia un punto di instabilità (come una tollerazna che impedisce al termostato di continuare a riaggiornarsi)
 bool stato; //variabile che vale 1 o 0
 
